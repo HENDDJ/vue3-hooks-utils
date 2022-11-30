@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "release": "release-it"
+    "release": "release-it",
+    "commit": "git-cz"
   },
   "author": "lxw",
   "license": "MIT",
@@ -25,6 +26,7 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-3": "^6.24.1",
     "cross-env": "^5.0.5",
+    "git-cz": "^4.9.0",
     "release-it": "^15.5.0",
     "webpack": "^3.6.0"
   },
