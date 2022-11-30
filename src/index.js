@@ -92,6 +92,11 @@ export function useEventListener({
 //     发布 npm publish
 //     可能会因为名称重复等原因失败，删除包npm unpublish <报名> -force，重新提交
 // 如何使用
+// 在上述的流程中，涉及到一个版本号的问题。需要脱离于git，形成一套记录在项目里的版本记录。 一般来说，推荐使用release来记录。
+// Release是具有changelogs和二进制文件的一级对象，它可以代表超出Git架构本身的一个特定时间点之前的所有项目历史。
+// 也就是通过release，不但能够通过源码体现出项目历史，还能通过已经编译好的二进制文件来进一步描述此时的项目状态。
+// 比如 elementui的维护记录文件。
+
 // 推荐另一种方法，使用releases-it、changelog管理版本号、上传
 
 // npm i -D release-it
@@ -152,3 +157,5 @@ export function useEventListener({
 // 这里生成了changelog但是没有地方进行记录,于是release-it/conventional-changelog
 // 安装release-it/conventional-changelog
 // npm i @release-it/conventional-changelog -D
+
+// 最后，简单理解一下，release的源码部分吧
