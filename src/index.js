@@ -130,7 +130,7 @@ export function useEventListener({
 //     },
 //     "plugins": {
 //       "@release-it/conventional-changelog": {
-//         "preset": "angular",
+//         "preset": "见文件",
 //         "infile": "CHANGELOG.md"
 //       }
 //     }
@@ -146,7 +146,7 @@ export function useEventListener({
 // 正常流程：变更了一部分代码，一般都要先提交 推送到代码服务器，先commit,不要push
 // git add .
 // git commit -m 'feat: release-it'
-
+// 或者安装git-cz，规范commit信息， 执行 npm install git-cz -D ，并修改npm scripts 增加 "commit": "git-cz"
 // run realease 
 
 // 这里生成了changelog但是没有地方进行记录,于是release-it/conventional-changelog
