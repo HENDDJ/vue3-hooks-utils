@@ -1,6 +1,6 @@
 {
   "name": "vue3-hooks-utils",
-  "version": "1.2.0",
+  "version": "1.1.0",
   "description": "some vue3 hooks",
   "main": "dist/index.js",
   "scripts": {
