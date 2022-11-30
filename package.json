@@ -30,6 +30,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/HENDDJ/vue3-hooks-utils.git"
+    "url": "git://github.com/HENDDJ/vue3-hooks-utils.git"
   }
 }
