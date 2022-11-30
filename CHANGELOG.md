@@ -1,5 +1,12 @@
 
 
+## [1.2.0](https://github.com/HENDDJ/vue3-hooks-utils/compare/1.1.0...1.2.0) (2022-11-30)
+
+
+### Features
+
+* 🎸 tte ([a8c6f27](https://github.com/HENDDJ/vue3-hooks-utils/commit/a8c6f274ccd087f22a5ab7f060af76c121d8f3fb))
+
 ## 1.1.0 (2022-11-30)
 
 
