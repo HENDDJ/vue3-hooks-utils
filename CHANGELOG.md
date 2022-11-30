@@ -1,5 +1,7 @@
 
 
+* feat: 🎸 rrr (252eb39)
+
 ## [1.2.0](https://github.com/HENDDJ/vue3-hooks-utils/compare/1.1.0...1.2.0) (2022-11-30)
 
 
