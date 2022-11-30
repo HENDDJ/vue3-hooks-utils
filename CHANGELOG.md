@@ -1,5 +1,17 @@
 
 
+## [1.3.0](https://github.com/HENDDJ/vue3-hooks-utils/compare/1.2.0...1.3.0) (2022-11-30)
+
+
+### Features
+
+* 🎸 rrr ([252eb39](https://github.com/HENDDJ/vue3-hooks-utils/commit/252eb399a18816364891cfe89e7f0acbe0a924f4))
+
+
+### Bug Fixes
+
+* 🐛 bugs ([0b50924](https://github.com/HENDDJ/vue3-hooks-utils/commit/0b50924462cc88086118e953dfb70fb9e81cc059))
+
 * feat: 🎸 rrr (252eb39)
 
 ## [1.2.0](https://github.com/HENDDJ/vue3-hooks-utils/compare/1.1.0...1.2.0) (2022-11-30)
