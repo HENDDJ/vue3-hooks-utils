@@ -111,12 +111,41 @@ export function useEventListener({
 //   使用插件扩展 
 //   从任何CI/CD环境中发布
 
-//   可以先跳过publish，修改package.json 
+//   release-it 单独配置.release-it.json,比如可以先跳过publish
+
+{
+    "github": {
+      "release": true
+    },
+    "git": {
+      "commitMessage": "release: v${version}"
+    },
+    "npm": {
+      "publish": false
+    },
+    "hooks": {
+      "after:bump": "echo 更新版本成功"
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": "angular",
+        "infile": "CHANGELOG.md"
+      }
+    }
+  }
 
 
-默认情况下，release-it是交互式的，允许您在执行每个任务之前进行确认,
-通过使用--ci选项，该过程完全自动化，无需提示。将执行配置的任务，如上面第一个动画所示。在持续集成（CI）环境中，此非交互模式将自动激活。
+// 默认情况下，release-it是交互式的，允许您在执行每个任务之前进行确认,
+// 通过使用--ci选项，该过程完全自动化，无需提示。将执行配置的任务，如上面第一个动画所示。在持续集成（CI）环境中，此非交互模式将自动激活。
 
-使用--only-version可以仅使用提示符来确定版本，并自动执行其余操作。
+// 使用--only-version可以仅使用提示符来确定版本，并自动执行其余操作。
 
-正常流程：变更了一部分代码，一般都要先提交 推送到代码服务器，先commit,不要push
+// 正常流程：变更了一部分代码，一般都要先提交 推送到代码服务器，先commit,不要push
+// git add .
+// git commit -m 'feat: release-it'
+
+// run realease 
+
+// 这里生成了changelog但是没有地方进行记录,于是release-it/conventional-changelog
+// 安装release-it/conventional-changelog
+// npm i @release-it/conventional-changelog -D
